@@ -5,6 +5,8 @@ import { cn } from "#/lib/utils";
 import { buttonVariants } from "#/components/ui/button";
 import { getMaterialTypes } from "../_partials/action";
 
+export const dynamic = "force-dynamic";
+
 export default async function CreateMaterialPage() {
   const materialTypes = await getMaterialTypes();
 
