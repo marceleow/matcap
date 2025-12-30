@@ -57,7 +57,7 @@ export default function MaterialList({ materials }: MaterialListProps) {
         </Link>
       </div>
       <div className="flex-1">
-        <ScrollArea className="h-[calc(100dvh-215px)]">
+        <ScrollArea className="h-[calc(100dvh-230px)] border">
           <div className="flex flex-col gap-2">
             {filteredMaterials.map((material) => (
               <MaterialCard key={material.id} {...material} />
